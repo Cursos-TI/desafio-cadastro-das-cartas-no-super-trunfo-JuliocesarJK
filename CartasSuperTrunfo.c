@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-     /*
+     /* 
     Definir o a variavel estado utilizando char
     Definir codigo da carta de acordo com o estado usando char
     Definir o nome da cidade usando char
