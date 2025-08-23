@@ -2,6 +2,7 @@
 
 int main() {
      /* 
+     
     Definir o a variavel estado utilizando char
     Definir codigo da carta de acordo com o estado usando char
     Definir o nome da cidade usando char
@@ -49,7 +50,11 @@ int main() {
     printf("Digite o número de pontos turisticos que essa cidade contém\n");
     scanf("%d", &pontoturistico1);
 
+    //Cálculo de PIB per capita
+
     pibpc1 = PIB1 / populacao1;
+
+    //Cálculo de desensidade populacional
 
     densidade1 = populacao1 / area1;
 
@@ -78,7 +83,11 @@ int main() {
     printf("Digite o número de pontos turisticos que essa cidade contém\n");
     scanf("%d", &pontoturistico2);
 
+    //Cálculo de PIB per capita
+
     pibpc2 = PIB2 / populacao2;
+
+    //Cálculo de desensidade populacional
 
     densidade2 = populacao2 / area2;
 
