@@ -12,6 +12,8 @@ int main() {
     Definir número de pontos turisticos utilizando int
     Definir o PIB per capita utilizando float
     Definir A densidade populacional utilizando float
+    Definir O Super Poder utilizando float
+    Definir A comparação utilizando int
 
     */
     char estado1, estado2;
@@ -198,7 +200,7 @@ int main() {
          if (densidade1 < densidade2){
         printf("A carta Um venceu por ter uma densidade populacional menor de: %.2f!!", densidade1);
     }else if(densidade2 < densidade1){
-        printf("A Carta Dois vencu por ter uma densidade populacional menor de: %.2f!!", densidade2);
+        printf("A Carta Dois venceu por ter uma densidade populacional menor de: %.2f!!", densidade2);
     }else{
         printf("A desensidade populacional das duas cartas são iguais!!");
     }
@@ -208,7 +210,7 @@ int main() {
         if (sp1 > sp2){
         printf("A carta Um venceu com um Super Poder  de: %.2f!!", sp1);
     }else if(sp2 > sp1){
-        printf("A Carta Dois vencu com um Super Poder de: %.2f!!", sp2);
+        printf("A Carta Dois venceu com um Super Poder de: %.2f!!", sp2);
     }else{
         printf("O Super Poder das duas cartas são iguais!!");
     }
